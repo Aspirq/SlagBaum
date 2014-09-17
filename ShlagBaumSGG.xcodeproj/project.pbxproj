@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F17CC7B19C7E82D0091FE0D /* Button_New_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F17CC7A19C7E82D0091FE0D /* Button_New_2.png */; };
+		1F29630E19C765E000F4BB74 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29630D19C765E000F4BB74 /* SettingViewController.swift */; };
 		1F494FA719C6C4780076FAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F494FA619C6C4780076FAE5 /* AppDelegate.swift */; };
 		1F494FAA19C6C4780076FAE5 /* ShlagBaumSGG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F494FA819C6C4780076FAE5 /* ShlagBaumSGG.xcdatamodeld */; };
 		1F494FAC19C6C4780076FAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F494FAB19C6C4780076FAE5 /* ViewController.swift */; };
@@ -14,6 +16,9 @@
 		1F494FB119C6C4780076FAE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F494FB019C6C4780076FAE5 /* Images.xcassets */; };
 		1F494FB419C6C4780076FAE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F494FB219C6C4780076FAE5 /* LaunchScreen.xib */; };
 		1F494FC019C6C4780076FAE5 /* ShlagBaumSGGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F494FBF19C6C4780076FAE5 /* ShlagBaumSGGTests.swift */; };
+		1F494FCA19C6C4E50076FAE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F494FC919C6C4E50076FAE5 /* CoreLocation.framework */; };
+		1F494FCC19C6C4F60076FAE5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F494FCB19C6C4F60076FAE5 /* MapKit.framework */; };
+		1FC9F17B19C8029100DB03EC /* Button_New_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9F17A19C8029100DB03EC /* Button_New_Red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F17CC7A19C7E82D0091FE0D /* Button_New_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_New_2.png; sourceTree = "<group>"; };
+		1F29630D19C765E000F4BB74 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ShlagBaumSGG/SettingViewController.swift; sourceTree = SOURCE_ROOT; };
 		1F494FA119C6C4780076FAE5 /* ShlagBaumSGG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShlagBaumSGG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F494FA519C6C4780076FAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F494FA619C6C4780076FAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		1F494FB919C6C4780076FAE5 /* ShlagBaumSGGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShlagBaumSGGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F494FBE19C6C4780076FAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F494FBF19C6C4780076FAE5 /* ShlagBaumSGGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShlagBaumSGGTests.swift; sourceTree = "<group>"; };
+		1F494FC919C6C4E50076FAE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1F494FCB19C6C4F60076FAE5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1FC9F17A19C8029100DB03EC /* Button_New_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_New_Red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F494FCC19C6C4F60076FAE5 /* MapKit.framework in Frameworks */,
+				1F494FCA19C6C4E50076FAE5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +73,8 @@
 		1F494F9819C6C4780076FAE5 = {
 			isa = PBXGroup;
 			children = (
+				1F494FCB19C6C4F60076FAE5 /* MapKit.framework */,
+				1F494FC919C6C4E50076FAE5 /* CoreLocation.framework */,
 				1F494FA319C6C4780076FAE5 /* ShlagBaumSGG */,
 				1F494FBC19C6C4780076FAE5 /* ShlagBaumSGGTests */,
 				1F494FA219C6C4780076FAE5 /* Products */,
@@ -82,6 +96,7 @@
 				1F494FA619C6C4780076FAE5 /* AppDelegate.swift */,
 				1F494FAB19C6C4780076FAE5 /* ViewController.swift */,
 				1F494FAD19C6C4780076FAE5 /* Main.storyboard */,
+				1F29630D19C765E000F4BB74 /* SettingViewController.swift */,
 				1F494FB019C6C4780076FAE5 /* Images.xcassets */,
 				1F494FB219C6C4780076FAE5 /* LaunchScreen.xib */,
 				1F494FA819C6C4780076FAE5 /* ShlagBaumSGG.xcdatamodeld */,
@@ -93,6 +108,8 @@
 		1F494FA419C6C4780076FAE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1FC9F17A19C8029100DB03EC /* Button_New_Red.png */,
+				1F17CC7A19C7E82D0091FE0D /* Button_New_2.png */,
 				1F494FA519C6C4780076FAE5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -164,6 +181,11 @@
 				TargetAttributes = {
 					1F494FA019C6C4780076FAE5 = {
 						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					1F494FB819C6C4780076FAE5 = {
 						CreatedOnToolsVersion = 6.0;
@@ -197,7 +219,9 @@
 			files = (
 				1F494FAF19C6C4780076FAE5 /* Main.storyboard in Resources */,
 				1F494FB419C6C4780076FAE5 /* LaunchScreen.xib in Resources */,
+				1FC9F17B19C8029100DB03EC /* Button_New_Red.png in Resources */,
 				1F494FB119C6C4780076FAE5 /* Images.xcassets in Resources */,
+				1F17CC7B19C7E82D0091FE0D /* Button_New_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +242,7 @@
 				1F494FAC19C6C4780076FAE5 /* ViewController.swift in Sources */,
 				1F494FAA19C6C4780076FAE5 /* ShlagBaumSGG.xcdatamodeld in Sources */,
 				1F494FA719C6C4780076FAE5 /* AppDelegate.swift in Sources */,
+				1F29630E19C765E000F4BB74 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +368,7 @@
 				INFOPLIST_FILE = ShlagBaumSGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,6 +379,7 @@
 				INFOPLIST_FILE = ShlagBaumSGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +436,7 @@
 				1F494FC519C6C4780076FAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F494FC619C6C4780076FAE5 /* Build configuration list for PBXNativeTarget "ShlagBaumSGGTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +445,7 @@
 				1F494FC819C6C4780076FAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
